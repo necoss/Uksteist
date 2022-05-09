@@ -1,0 +1,44 @@
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+.container .h-top-block {
+  padding-top: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.container .h-top-block .h-top-block__logo {
+  width: 66%;
+}
+.container .h-top-block .h-top-block__phone, .container .h-top-block .h-top-block__burger {
+  width: 17%;
+}
+.container .big-main-pic {
+  padding-top: 90px;
+}
+.container .big-main-pic .big-main-pic__media p {
+  text-align: center;
+  color: black;
+  font-size: 230px;
+  font-weight: 800;
+  font-family: "Montserrat";
+}
+.container .big-main-pic .big-main-pic__text h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 100%;
+  text-align: center;
+  letter-spacing: 0.0703846px;
+  color: #1D1F1D;
+  mix-blend-mode: normal;
+  padding-top: 65px;
+}
