@@ -1,3 +1,8 @@
+header,
+main {
+  background-color: #F8F8F8;
+}
+
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -17,18 +22,22 @@
 .container .h-top-block .h-top-block__logo {
   width: 66%;
 }
-.container .h-top-block .h-top-block__phone, .container .h-top-block .h-top-block__burger {
+.container .h-top-block .h-top-block__phone,
+.container .h-top-block .h-top-block__burger {
   width: 17%;
 }
 .container .big-main-pic {
   padding-top: 90px;
 }
-.container .big-main-pic .big-main-pic__media p {
+.container .big-main-pic .big-main-pic__h1-like {
   text-align: center;
-  color: black;
+  color: transparent;
   font-size: 230px;
   font-weight: 800;
   font-family: "Montserrat";
+  background-image: url(../video/forest-video.gif);
+  background-position: center;
+  -webkit-background-clip: text;
 }
 .container .big-main-pic .big-main-pic__text h1 {
   font-family: "Montserrat";
@@ -41,4 +50,70 @@
   color: #1D1F1D;
   mix-blend-mode: normal;
   padding-top: 65px;
+}
+.container .big-main-pic .big-main-pic__text p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 120%;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #1D1F1D;
+  padding-top: 26px;
+}
+.container .big-main-pic .big-main-pic__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 63px;
+}
+.container .big-main-pic .big-main-pic__button a {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 90%;
+  letter-spacing: 0.0703846px;
+  color: #1D1F1D;
+  text-decoration: none;
+  border: 1px solid #1D1F1D;
+  border-radius: 30px;
+  padding: 23px 40px;
+}
+.container .m-land-map {
+  padding-top: 190px;
+}
+.container .m-land-map .m-land-map__advantages {
+  display: block;
+}
+.container .m-land-map .m-land-map__advantages .m-land-map__advantages-styles {
+  padding-top: 29px;
+  width: 100%;
+}
+.container .m-land-map .m-land-map__advantages .m-land-map__advantages-styles :first-child {
+  padding-top: 0;
+}
+.container .m-land-map .m-land-map__advantages .m-land-map__advantages-styles h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+  letter-spacing: 0.1px;
+  color: #1D1F1D;
+  padding-top: 19px;
+}
+.container .m-land-map .m-land-map__advantages .m-land-map__advantages-styles p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  letter-spacing: 0.1px;
+  color: #000000;
+  padding-top: 11px;
 }
