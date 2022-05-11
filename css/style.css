@@ -70,6 +70,7 @@ main {
       -ms-flex-pack: center;
           justify-content: center;
   padding-top: 63px;
+  padding-bottom: 190px;
 }
 .container .big-main-pic .big-main-pic__button a {
   font-family: "Montserrat";
@@ -84,9 +85,13 @@ main {
   border-radius: 30px;
   padding: 23px 40px;
 }
-.container .m-land-map {
-  padding-top: 190px;
+
+.land-map-bg {
+  background-image: url(../img/Main/main-background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
+
 .container .m-land-map .m-land-map__advantages {
   display: block;
 }
@@ -95,7 +100,7 @@ main {
   width: 100%;
 }
 .container .m-land-map .m-land-map__advantages .m-land-map__advantages-styles :first-child {
-  padding-top: 0;
+  padding-top: 36;
 }
 .container .m-land-map .m-land-map__advantages .m-land-map__advantages-styles h2 {
   font-family: "Montserrat";
@@ -116,4 +121,10 @@ main {
   letter-spacing: 0.1px;
   color: #000000;
   padding-top: 11px;
+}
+.container .m-land-map .m-land-map__sea-distance {
+  padding-top: 94px;
+}
+.container .m-land-map .m-land-map__sea-distance p {
+  text-align: center;
 }

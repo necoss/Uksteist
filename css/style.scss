@@ -70,6 +70,7 @@ main {
             display: flex;
             justify-content: center;
             padding-top: 63px;
+            padding-bottom: 190px;
 
             a {
                 font-family: 'Montserrat';
@@ -86,18 +87,21 @@ main {
             }
         }
     }
-
-    .m-land-map {
-        padding-top: 190px;
-
+}
+.land-map-bg{
+    background-image: url(../img/Main/main-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    .m-land-map {  
         .m-land-map__advantages {
             display: block;
-
             .m-land-map__advantages-styles {
                 padding-top: 29px;
                 width: 100%;
                 :first-child {
-                    padding-top: 0;
+                    padding-top: 36;
                 }
 
                 h2 {
@@ -123,8 +127,15 @@ main {
                 }
             }
         }
+        .m-land-map__sea-distance{
+            padding-top: 94px;
+            p{
+                text-align: center;
+            }
+        }
     }
 }
+
 
 // Малые девайсы («ландшафтные телефоны», >= 576px)
 @media (min-width: 576px) {
